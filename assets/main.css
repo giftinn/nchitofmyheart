@@ -26,19 +26,18 @@
   text-align: center;
   font-family: "Comic Neue", cursive;
   font-weight: 700;
-  font-size: clamp(50px, 6vw, 70px); /* Responsif, minimal 20px dan maksimal 50px */
+  font-size: clamp(40px, 6vw, 70px);
 
   display: flex;
+  flex-wrap: wrap; /* 🔥 INI KUNCINYA */
   justify-content: center;
   align-items: center;
 
-  height: 100vh; /* Membuat elemen setinggi layar penuh */
+  height: 100vh;
   text-shadow: 0 0 20px white;
   letter-spacing: 0px;
-  padding: 0 10vw; /* Memberikan ruang di kiri dan kanan agar teks tidak terlalu dekat dengan pinggir */
+  padding: 0 8vw;
 }
-
-
 
 
 @media (min-width: 500px) {
