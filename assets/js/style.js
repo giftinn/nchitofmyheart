@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I adore you, Fuine').split('');
+        const titles = ('My heart treats you with care.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Thank you for being with me for three years. Always glad for having you here; all the tears of happiness and sadness, I collect them all and turn them into an beautiful flower—you're my Iris:";
+            subtitle.innerText = "‎If I could, I’d give you real flowers every day. For now, let this carry my love";
             subtitle.style.fontSize = '20px'; 
             subtitle.style.marginTop = '2px'; 
             subtitle.style.color = '#fff';
